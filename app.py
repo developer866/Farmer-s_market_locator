@@ -1,5 +1,5 @@
 import streamlit as st
-# from streamlit_option_menu import option_menu
+from streamlit_option_menu import option_menu
 from auth import login, register
 from pages.Home import home_page
 from pages.Recommendation import recommendation_page
